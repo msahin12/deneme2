@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 
 Route::get('/deneme', "controllerDeneme@kontrolet");
+Route::get('/deneme2', "controllerDeneme@kontrolet");
 
 Route::get('/form', "controllerDeneme@formgoster");
 Route::post('/form', "controllerDeneme@formkontrol");
